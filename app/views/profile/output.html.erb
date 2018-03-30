@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  	<meta charset="utf-8">
+    <title><%=@myname %> 자기소개서</title>
+  </head>
+  <body>
+  	<center><h1>자기소개서</h1></center>
+      	<center><table border="1"></center>
+      			<tr>
+      				<td rowspan="2" width="200" height="300">
+      					<center>
+      						<!--<img src="gb.jpg" width="190" height="290">-->
+      					</center>
+      				</td>
+      				<th>성 명</th>
+      					<td width="100"><%=@myname %></td>
+      					<th>성별</th>
+      					<td width="100"><%=@mysex %></td>
+      				</tr>
+      				<tr>
+      					<th>취미</th>
+      					<td><%=@myhobby %> </td>
+      					<th>연락처</th>
+      					<td><%=@mynum %></td>
+      			</tr>
+      			<tr>
+      			    <th>나이</th>
+      			    <td colspan='4'><center><%=@myage %></center></td>
+      			</tr>
+      			<tr>
+      				<th>학과</th>
+      				<td colspan="4"><center>신문방송학과</center></td>
+      			</tr>
+      			<tr>
+      				<th>과제 후기</th>
+      				<td colspan="4"><center>코딩의 길은 멀고도 험하다</center></td>
+      			</tr>
+      			<tr>
+      				<th>앞으로의 각오</th>
+      				<td colspan="4"><center>낙오만 되지 말자</center></td>
+      			</tr>
+  		  	</table>
+  </body>
+</html>
